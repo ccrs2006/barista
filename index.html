@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>The Barista</title>
+  <!-- logo -->
+  <link rel="shortcut icon" href="assets/images/logo2.ico"/>
+  <!-- Bootstrap link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Bootstrap local backup link -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <!-- local style.css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- ajax link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+</head>
+<body>
+
+  <!-- jumbotron -->
+    <div class="jumbotron">
+      <h1 class="text-center">
+      <img class="logo" src="assets/images/logo.png" alt="logo" style="width: 150px; height: 150px">The Barista</h1>
+      <h3 class="text-center">Become a great barista and get paid top dollar.</h3>
+    </div>
+    <!-- End of jumbotron -->
+
+    <div class="container">
+      <div class="row">
+        <!-- nav section -->
+        <div class="navbar-collapse col-md-5 col-sm-offset-1 col-sm-10">
+          <ul class="nav navbar-nav">
+            <li><a href="whatsABarista.html">What's a barista?</a>
+            </li>
+            <li><a href="becomeABarista.html">Become a Barista</a>
+            </li>
+          </ul>
+        </div>
+        <!-- End of nav section -->
+        
+        <div class="panel panel-primary col-md-4 col-sm-9">
+          <div class="panel-heading">
+            <h3 class="panel-title"><strong>Search your top paid coffee shop</strong></h3>
+          </div>
+          <div class="panel-body">
+            <!-- Entry Form -->
+            <form>
+              <div class="form-group">
+                <input class="form-control" id="user-input" type="text" placeholder="Enter a city">
+              </div>
+              <button class="btn btn-primary" id="search-btn" type="submit">Submit
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div> 
+
+      <div class="row">
+        <div class="card-body col-md-offset-1 col-md-8 col-sm-offset-1 col-sm-8 sticky-top">
+          <h4 class="card-title">Saved List</h4>
+          <p class="card-text savedList"></p>
+          <button type="button" class="btn btn-danger removeData">Clear</button>
+        </div>
+      </div>
+        <!-- this is the div where firebase data is uploaded -->
+
+      <div class="card">
+      </div>
+      <!-- end of row   -->
+
+      <!-- this is where the map will show -->
+      <div id="map" class="hidden"></div>
+
+      <br><br>
+
+      <!-- Rendered Buttons will go here -->
+    <div class="container">
+      <div class="col-md-10 col-sm-10">
+        <div id="info">
+        </div>
+      </div>
+    </div>
+
+  </div> <!--end of container-->
+
+  <!-- footer -->
+  <br><br><br><br>
+
+  <div>
+    <footer>©Copyright 2017 Decoders </footer>
+  </div>
+  <!-- End footer -->
+
+  <!--google API link-->
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeN_TFadUAu1YbATQVRBfDeWAyM5mBuRQ">
+</script>
+<!-- Local JavaScript -->
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

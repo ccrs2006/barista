@@ -1,0 +1,139 @@
+* {box-sizing: border-box;}
+* {margin:0;padding:0;}
+
+body {
+  background: url("../images/barista1.jpg");
+  background-color: #723d0b;
+  background-size: 100%;
+}
+
+.jumbotron {
+  background-color: black; 
+  opacity: 0.7;
+  color: white;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 60px;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.navbar-nav li{
+  margin-left: 15px;
+  background-color: #723d0b;
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+.navbar-nav li a {
+  line-height: 30px;
+  color: #ffffff;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 30px;
+}
+
+.navbar-nav li :hover {
+  background-color: black;
+  border-radius: 50px;
+  color: #000000;
+}
+
+.panel-primary .panel-heading {
+  background-color: #723d0b;
+  border-color: #723d0b;
+}
+
+.panel-primary {
+  border-color: #723d0b;
+  background-color: #723d0b;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.btn-primary {
+  background-color: #723d0b;
+  border-color: #723d0b;
+}
+
+.btn-primary {
+  border: 1px solid #000000;
+}
+
+#map {
+  height: 400px;
+  width: 1000px;
+  border: 5px solid #222222;
+  box-shadow: 12px 12px 8px #000000;
+}
+
+.hidden {
+  display: none;
+}
+
+.card-body {
+  float: left;
+  background-color: #723d0b;
+  opacity: 0.9;
+  border-radius: 15px;
+  padding: 15px 40px 15px 40px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 25px;
+  border: 2px solid #222222;
+  box-shadow: 12px 12px 8px #000000;
+}
+
+.new-info {
+  background-color: #723d0b;
+  opacity: 0.9;
+  border-radius: 15px;
+  padding: 15px 40px 15px 40px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 25px;
+  border: 2px solid #222222;
+  box-shadow: 12px 12px 8px #000000;
+}
+
+.url-Remove {
+  display: none !important;
+}
+
+footer {
+    background-color: #723d0b;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: #ffffff;
+    clear: both;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+   .container {
+    width: 768px;
+   }
+}
+
+@media screen and (max-width: 640px) {
+   .container {
+    width: 768px;
+   }
+}
+

@@ -8,7 +8,7 @@ This was our first group project
 -Then they can the results of the coffee shops sorted by tipping ratio from highest to lowest.   
 -From there they can click on the shops they are interested ikn and it will save a list for them to always revisit.   
    
-
+This is the link to the app: https://ccrs2006.github.io/barista/.
 
 
 ![barista](https://user-images.githubusercontent.com/28827821/32977422-5dda86a6-cbea-11e7-8a00-b5fa0a0b1fe7.JPG)
